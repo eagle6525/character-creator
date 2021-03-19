@@ -3,10 +3,21 @@
   padding-bottom: 64px;
 }
 
+.floor {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+}
+
 .maxWidthWrapper {
+  max-width: 1024px;
+  isolation: isolate;
 }
 
 .header {
+  max-width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +35,13 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  height: 75%;
+  min-height: 500px;
+  top: 25%;
+  left: 60%;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
